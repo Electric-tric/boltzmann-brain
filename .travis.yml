@@ -1,4 +1,6 @@
 os:
   - osx
+language:
+  - haskell
 ghc:
   - "8.0"
