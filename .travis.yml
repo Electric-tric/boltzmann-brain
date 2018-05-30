@@ -2,6 +2,7 @@ os:
   - osx
 language:
   - haskell
+dist: trusty
 ghc:
   - "8.0"
 before_install:
