@@ -4,3 +4,8 @@ language:
   - haskell
 ghc:
   - "8.0"
+before_install:
+  - stack solver
+  - stack solver --update-config
+  - stack build
+  - stack install
